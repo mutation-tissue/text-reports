@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>記録場所</title>
+    <link rel="stylesheet" href="writing-style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js" type="text/javascript"></script>
+  </head>
+  <body onload="proc()">
+    <div class="sample">
+      <p class="as">ようこそ</p>
+      <p>押せよ</p>
+      <p class="fjdj">fafaf</p>
+    </div>
+    <script type="text/javascript" src="writing-sheet.js"></script>
+  <button type="button" name="button" onclick="countup()">カウントましまし</button>
+  <button type="button" name="button" onclick="reset()">全削除</button>
+  <div class="next-step">
+    <p>次の投稿は</p>
+    <p id="dayCount">0</p>
+    <p>番目です</p>
+  </div>
+  <div class="save-sentence">
+      <textarea id="contents_text" name="name" rows="8" cols="80"></textarea>
+      <div id="text_saveform" class="text-center">
+      <p onclick="new_text()">投稿</p>
+      <p onclick="contents_remove()">削除</p>
+      <p onclick="new_place()">追加</p>
+      <p onclick="add_sentence()">文章を追加</p>
+    </div>
+    <div class="check-list" id="this">
+      <p id="list_line">更新すると下に表示されます。</p>
+    </div>
+  </div>
+</body>
+</html>
