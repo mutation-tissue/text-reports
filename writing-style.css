@@ -45,7 +45,7 @@ textarea {
     color:#000;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 800px) {
   .text-center p{
     width: 80%;
     text-align: center;
