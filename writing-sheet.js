@@ -59,7 +59,7 @@ function save (count) {
 let new_text = ()=> {
   var text = document.getElementById("contents_text").value;
   if(text == ""){
-    alert("入力されていません")
+    alert("入力されていません");
   } else {
     placed (text);
     count = load_number();
@@ -92,7 +92,7 @@ let new_place = ()=> {
 let add_sentence = ()=> {
   var text = document.getElementById("contents_text").value;
   if(text == ""){
-    alert("入力されていません")
+    alert("入力されていません");
   } else {
     placed (text);
     var newTag = document.createElement("p");
