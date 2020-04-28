@@ -40,15 +40,15 @@ textarea {
 .sample {
     color: #aaa;
   }
-  .text-center {
-    padding-bottom: 30px;
-    margin-top: 90px;
-    color:#000;
-  }
-  #contents_text {
-    width:80%;
-  }
-  .old_text{
-    width:80%;
-  }
+.text-center {
+padding-bottom: 30px;
+margin-top: 90px;
+color:#000;
+}
+#contents_text {
+width:80%;
+}
+.old_text{
+width:80%;
+}
 }
