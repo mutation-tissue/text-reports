@@ -1,4 +1,4 @@
-unction proc() {
+function proc() {
   var count1 = load_number();
   document.getElementById("dayCount").innerHTML = count1;
   var text1 = load_text();
