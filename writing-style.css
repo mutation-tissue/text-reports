@@ -33,23 +33,10 @@ textarea {
   clear: both;
 }
 @media (max-width: 1000px) {
-  .sample {
-  }
-  .text-center p {
-    width: 80%;
-    text-align: center;
-  }
-  .text-center {
-    padding-bottom: 30px;
-    margin-top: 90px;
-    color:#000;
-  }
-}
-@media (max-width: 800px) {
   .text-center p{
     width: 80%;
     text-align: center;
-	}
+}
 .sample {
     color: #aaa;
   }
