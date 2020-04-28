@@ -11,17 +11,6 @@ function proc() {
   document.getElementById('this').appendChild(newTag);
   }
 }
-(function($, $pg) {
-$('.fjdj').hover(
-  function(){
-    $('.as').css('color', '#00aa00');
-  },
-  function(){
-    $('.as').css('color', 'red');
-  });
-let change = ()=>{
-  $('.little').css('color','#d4d4d4')
-}
 let reset = ()=> {
   var count1 = load_number();
   count1 = 0;
@@ -102,4 +91,16 @@ let add_sentence = ()=> {
     countup();
   }
 }
+(function($, $pg) {
+$('.fjdj').hover(
+  function(){
+    $('.as').css('color', '#00aa00');
+  },
+  function(){
+    $('.as').css('color', 'red');
+  });
+let change = ()=>{
+  $('.little').css('color','#d4d4d4')
+}
+
 })(jQuery, $);
