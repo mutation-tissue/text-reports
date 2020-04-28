@@ -11,6 +11,7 @@ unction proc() {
   document.getElementById('this').appendChild(newTag);
   }
 }
+(function($, $pg) {
 $('.fjdj').hover(
   function(){
     $('.as').css('color', '#00aa00');
@@ -101,3 +102,4 @@ let add_sentence = ()=> {
     countup();
   }
 }
+})(jQuery, $);
