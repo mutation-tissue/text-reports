@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#change {
+  background-color: red;
+}
+textarea {
+  resize: none;
+}
+.save-sentence {
+	padding: 20px;
+	margin: 20px;
+}
+.next-step p{
+  float: left;
+}
+.old_text {
+  padding: 10px;
+  margin-bottom:10px;
+  border: 1px solid #333333;
+  width: 30%;
+}
+.text-center p{
+  background-color: #c0c0c0;
+  margin-bottom: 10px;
+  width: 100px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+}
+.check-list {
+  clear: both;
+}
+@media (max-width: 1000px) {
+  .sample {
+    color: #00aa00;
+  }
+}
+@media (max-width: 670px) {
+  .text-center p {
+    clear: both;
+    width: 80%;
+    text-align: center;
+  }
+  #contents_text {
+    width:80%;
+  }
+}
