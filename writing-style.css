@@ -42,6 +42,7 @@ textarea {
     clear: both;
     width: 80%;
     text-align: center;
+    font-size: 100px;
   }
   #contents_text {
     width:80%;
