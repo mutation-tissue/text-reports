@@ -34,7 +34,6 @@ textarea {
 }
 @media (max-width: 1000px) {
   .sample {
-    color: #00aa00;
   }
   .text-center p {
     width: 80%;
@@ -47,11 +46,17 @@ textarea {
   }
 }
 @media (max-width: 670px) {
-  .text-center p {
-    clear: both;
+  .text-center p{
     width: 80%;
     text-align: center;
-    font-size: 100px;
+	}
+.sample {
+    color: #aaa;
+  }
+  .text-center {
+    padding-bottom: 30px;
+    margin-top: 90px;
+    color:#000;
   }
   #contents_text {
     width:80%;
