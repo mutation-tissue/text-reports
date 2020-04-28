@@ -32,6 +32,9 @@ textarea {
 .check-list {
   clear: both;
 }
+.old_text{
+width:80%;
+}
 @media (max-width: 1000px) {
   .text-center p{
     width: 80%;
